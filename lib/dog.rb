@@ -1,23 +1,17 @@
 # Your code goes here!
-class Dog 
-  
-  def name=(dog name)
-    @this_dogs_name = dog_name
+class Dog
+  def name=(name)
+    @name = name
   end
-  
+
   def name
-    @this_dogs_name
+    @name
+  end
+
+  def bark
+    puts "woof!"
   end
 end
-
-def bark=(woof!)
-  @this_dogs_sound = dog_sound
-end
-
-def bark
-  @this_dogs_sound
-end 
-end
-end
+© 2020 GitHub, Inc.
   
   
