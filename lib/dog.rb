@@ -11,12 +11,13 @@ class Dog
 end
 
 def bark=(woof!)
-  @this_dogs_bark = dog_so
+  @this_dogs_sound = dog_sound
 end
 
 def bark
   @this_dogs_sound
 end 
+end
 end
   
   
