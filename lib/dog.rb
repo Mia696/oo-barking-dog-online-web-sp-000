@@ -10,6 +10,13 @@ class Dog
   end
 end
 
+def bark=(dog_sound)
+  @this_dogs_sound = dog_sound
+end
+
 def bark
+  @this_dogs_sound
+end 
+end
   
   
